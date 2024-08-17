@@ -3,7 +3,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class ContaTerminal {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
        //Declaração da entradade de dados e variáveis
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
