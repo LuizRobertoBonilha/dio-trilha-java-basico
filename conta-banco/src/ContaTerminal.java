@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
-       
+       //Declaração da entradade de dados e variáveis
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
         System.out.println("Digite seu nome de usuario: ");
@@ -19,13 +19,13 @@ public class ContaTerminal {
         System.out.println("Digite o seu saldo: ");
         double saldo = scanner.nextDouble();
 
-
+    // Mensagem final ao usuário
         System.out.println("Olá " + nomeCliente + " obrigado por criar uma conta em nosso banco, sua agência é " + agencia + " conta " +numero + " e  seu saldo " + saldo + " já está disponível para saque.");
     }
 }
 
-/*
- Vamos exercitar todo o conteúdo apresentado no módulo de Sintaxe codificando o seguinte cenário.
+/**
+ Proposta do projeto
 
 Crie o projeto ContaBanco que receberá dados via terminal contendo as características de conta em banco conforme atributos abaixo:
 Dentro do projeto, crie a classe ContaTerminal.java para realizar toda a codificação do nosso programa.
@@ -44,4 +44,4 @@ Depois de todas as informações terem sido inseridas, o sistema deverá exibir 
 "Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já está disponível para saque".
 
 Os campos em [ ] devem ser alterados pelas informações que forem inseridas pelos usuários.
- */
+ **/
